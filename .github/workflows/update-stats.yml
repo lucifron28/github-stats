@@ -29,7 +29,7 @@ jobs:
       - name: Run script to update SVG
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: python github_stats.py
+        run: python generate_svg.py
 
       - name: Commit and push changes
         run: |
