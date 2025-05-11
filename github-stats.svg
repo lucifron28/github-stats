@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg" x1="0" Helen  y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#00c6ff" />
       <stop offset="100%" stop-color="#0072ff" />
     </linearGradient>
@@ -9,45 +9,35 @@
   <rect width="100%" height="100%" fill="url(#bg)" rx="20" />
 
   <style>
-    .title {
-      font: bold 24px 'Segoe UI', sans-serif;
-      fill: white;
-    }
-    .label {
-      font: 14px 'Segoe UI', sans-serif;
-      fill: #f0f0f0;
-    }
-    .value {
-      font: bold 20px 'Segoe UI', sans-serif;
-      fill: #ffffff;
-    }
-    .icon {
-      font-size: 20px;
-      fill: #f0f0f0;
-    }
+    .title { font: bold 24px 'Segoe UI', sans-serif; fill: white; }
+    .label { font: 14px 'Segoe UI', sans-serif; fill: #f0f0f0; }
+    .value { font: bold 20px 'Segoe UI', sans-serif; fill: #ffffff; }
   </style>
 
   <!-- Title -->
   <text x="30" y="40" class="title">GitHub Contribution Summary</text>
 
-  <!-- Total Commits -->
-  <text x="30" y="80" class="label">📝 Total Commits</text>
-  <text x="30" y="100" class="value">338</text>
+  <!-- Total Contributions -->
+  <text x="30" y="80" class="label">📝 Total Contributions</text>
+  <text x="30" y="100" class="value">1781</text>
 
-  <!-- Commits This Year -->
-  <text x="170" y="80" class="label">📅 Commits This Year</text>
-  <text x="170" y="100" class="value">57</text>
+  <!-- Contributions This Year -->
+  <text x="200" y="80" class="label">📅 Contributions This Year</text>
+  <text x="200" y="100" class="value">85</text>
 
   <!-- Total Stars -->
-  <text x="340" y="80" class="label">⭐ Total Stars</text>
-  <text x="340" y="100" class="value">36</text>
+  <text x="400" y="80" class="label">⭐ Total Stars</text>
+  <text x="400" y="100" class="value">37</text>
 
   <!-- Current Streak -->
   <text x="30" y="140" class="label">🔥 Current Streak</text>
-  <text x="30" y="160" class="value">5 days</text>
+  <text x="30" y="160" class="value">4 days</text>
 
   <!-- Longest Streak -->
-  <text x="220" y="140" class="label">🏆 Longest Streak</text>
-  <text x="220" y="160" class="value">30 days</text>
+  <text x="200" y="140" class="label">🏆 Longest Streak</text>
+  <text x="200" y="160" class="value">55 days</text>
 
+  <!-- Total Workflow Runs -->
+  <text x="400" y="140" class="label">⚙️ Total Workflow Runs</text>
+  <text x="400" y="160" class="value">73</text>
 </svg>
